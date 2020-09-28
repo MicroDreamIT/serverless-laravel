@@ -11,7 +11,6 @@
 
     <!-- Scripts -->
     <script src="{{ asset(mix('js/app.js')) }}" defer></script>
-{{--    <script src="https://tagpublic.s3.amazonaws.com/js/app.js" defer></script>--}}
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -19,7 +18,6 @@
 
     <!-- Styles -->
     <link href="{{ asset(mix('css/app.css')) }}" rel="stylesheet">
-{{--    <link href="https://tagpublic.s3.amazonaws.com/css/app.css" rel="stylesheet">--}}
 </head>
 <body>
     <div id="app">
