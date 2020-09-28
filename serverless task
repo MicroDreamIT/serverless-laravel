@@ -1,0 +1,12 @@
+1. configure artisan command/cli ->done
+2. configure css/js ->done
+3. configure assets
+4. configure database
+5. setup dynamic way on local, dev and production
+
+
+
+artisan command vendor/bin/bref cli laravel-dev-artisan
+
+
+pushing asset to s3 aws s3 sync public/ s3://tagpublic/ --delete --exclude index.php
